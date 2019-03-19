@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_Presentation", "1_Presentation", "{E63DFBAC-0381-4091-882E-D72E80A13093}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2_Services", "2_Services", "{B32DD0DC-AD91-4B0E-99DD-59480077CD42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3_Application", "3_Application", "{2A58AB7E-BA1A-4877-B825-9AEC965DBA02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4_Domain", "4_Domain", "{036AE8BB-B2E1-4C1B-9BBC-21C18F4AFA21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5_Infra", "5_Infra", "{CF28974C-A367-40F3-BAA6-8910C3B7DE02}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{53F5253D-B3A0-46DA-ADD5-9726C2E531DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{15DFD5D4-DB63-491B-83BF-89981ED1B255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRbit.Agendamentos.Domain", "src\VRbit.Agendamentos.Domain\VRbit.Agendamentos.Domain.csproj", "{F528C5BB-5F74-4FE1-8357-5B119968B1A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRbit.Agendamentos.Infra.Data", "src\VRbit.Agendamentos.Infra.Data\VRbit.Agendamentos.Infra.Data.csproj", "{FA17D7A7-1F21-455E-BD86-CF28F8161CA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRbit.Agendamentos.Application", "src\VRbit.Agendamentos.Application\VRbit.Agendamentos.Application.csproj", "{1A007F7C-F133-43A0-A1D6-61F9BFCA8EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRbit.Agendamentos.UI.Sistema", "src\VRbit.Agendamentos.UI.Sistema\VRbit.Agendamentos.UI.Sistema.csproj", "{25155D64-FA5B-4FB8-B475-20E6DCA3F4DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRbit.Agendamentos.CrossCutting.MvcFilters", "src\VRbit.Agendamentos.CrossCutting.MvcFilters\VRbit.Agendamentos.CrossCutting.MvcFilters.csproj", "{6FCF0459-6574-425F-B4C9-92C4DF819486}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F528C5BB-5F74-4FE1-8357-5B119968B1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F528C5BB-5F74-4FE1-8357-5B119968B1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F528C5BB-5F74-4FE1-8357-5B119968B1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F528C5BB-5F74-4FE1-8357-5B119968B1A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA17D7A7-1F21-455E-BD86-CF28F8161CA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA17D7A7-1F21-455E-BD86-CF28F8161CA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA17D7A7-1F21-455E-BD86-CF28F8161CA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA17D7A7-1F21-455E-BD86-CF28F8161CA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A007F7C-F133-43A0-A1D6-61F9BFCA8EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A007F7C-F133-43A0-A1D6-61F9BFCA8EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A007F7C-F133-43A0-A1D6-61F9BFCA8EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A007F7C-F133-43A0-A1D6-61F9BFCA8EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25155D64-FA5B-4FB8-B475-20E6DCA3F4DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25155D64-FA5B-4FB8-B475-20E6DCA3F4DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25155D64-FA5B-4FB8-B475-20E6DCA3F4DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25155D64-FA5B-4FB8-B475-20E6DCA3F4DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FCF0459-6574-425F-B4C9-92C4DF819486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FCF0459-6574-425F-B4C9-92C4DF819486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FCF0459-6574-425F-B4C9-92C4DF819486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FCF0459-6574-425F-B4C9-92C4DF819486}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53F5253D-B3A0-46DA-ADD5-9726C2E531DD} = {CF28974C-A367-40F3-BAA6-8910C3B7DE02}
+		{15DFD5D4-DB63-491B-83BF-89981ED1B255} = {CF28974C-A367-40F3-BAA6-8910C3B7DE02}
+		{F528C5BB-5F74-4FE1-8357-5B119968B1A2} = {036AE8BB-B2E1-4C1B-9BBC-21C18F4AFA21}
+		{FA17D7A7-1F21-455E-BD86-CF28F8161CA4} = {53F5253D-B3A0-46DA-ADD5-9726C2E531DD}
+		{1A007F7C-F133-43A0-A1D6-61F9BFCA8EDE} = {2A58AB7E-BA1A-4877-B825-9AEC965DBA02}
+		{25155D64-FA5B-4FB8-B475-20E6DCA3F4DC} = {E63DFBAC-0381-4091-882E-D72E80A13093}
+		{6FCF0459-6574-425F-B4C9-92C4DF819486} = {15DFD5D4-DB63-491B-83BF-89981ED1B255}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {957ECF59-F8EB-4A91-9D6E-EAD8A16F7406}
+	EndGlobalSection
+EndGlobal

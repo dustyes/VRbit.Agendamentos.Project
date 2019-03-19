@@ -1,0 +1,58 @@
+﻿@model IEnumerable<VRbit.Agendamentos.Application.ViewModels.ClienteViewModel>
+@using VRbit.Agendamentos.UI.Sistema.Helpers;
+@{
+    ViewBag.Title = "Clientes";
+}
+
+<h2>Cadastro Clientes</h2>
+
+@{
+    if (this.IfClaim("ModuloCliente", "CI"))
+    {
+        <p>
+            @Html.ActionLink("Incluir Cliente", "Create", null, htmlAttributes: new { @class = "btn btn-info btn-sm", @role = "button" })
+        </p>
+    }
+}
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataNascimento)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPF)
+            </td>
+            <td valign="bottom">
+                @Html.DisplayFor(modelItem => item.DataNascimento)
+            </td>
+            <td>
+                @Html.ActionLink(" ", "Edit", new { id = item.ClienteId }, htmlAttributes: new { @class = "glyphicon glyphicon-edit btn btn-default" })
+                |
+                @Html.ActionLink(" ", "Details", new { id = item.ClienteId }, htmlAttributes: new { @class = "glyphicon glyphicon-list btn btn-info btn-sm", @role = "button" }) |
+                @Html.ActionLink(" ", "Delete", new { id = item.ClienteId }, htmlAttributes: new { @class = "glyphicon glyphicon-trash btn btn-danger btn-sm", @role = "button" }).IfClaimHelper("ModuloCliente", "CX")
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,42 @@
+﻿@model IEnumerable<VRbit.Agendamentos.Application.ViewModels.TipoAgendamentoViewModel>
+@using VRbit.Agendamentos.UI.Sistema.Helpers;
+
+@{
+    ViewBag.Title = "Tipos Agendamento";
+}
+
+<h2>Cadastro Tipos Agendamento</h2>
+
+<p>
+    @Html.ActionLink("Incluir Tipo Agendamento", "Create", null, htmlAttributes: new { @class = "btn btn-info btn-sm", @role = "button" })
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Descricao)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Interno)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Interno)
+            </td>
+            <td>
+                @Html.ActionLink(" ", "Edit", new { id = item.TipoAgendamentoId }, htmlAttributes: new { @class = "glyphicon glyphicon-edit btn btn-default" }) |
+                @Html.ActionLink(" ", "Details", new { id = item.TipoAgendamentoId }, htmlAttributes: new { @class = "glyphicon glyphicon-list btn btn-info btn-sm", @role = "button" }) |
+                @Html.ActionLink(" ", "Delete", new { id = item.TipoAgendamentoId }, htmlAttributes: new { @class = "glyphicon glyphicon-trash btn btn-danger btn-sm", @role = "button" })
+            </td>
+        </tr>
+    }
+
+</table>
