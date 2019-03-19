@@ -1,0 +1,17 @@
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.ProjetoMvc.Domain\bin\Debug\VRbit.ProjetoMvc.Domain.dll
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.ProjetoMvc.Domain\bin\Debug\VRbit.ProjetoMvc.Domain.pdb
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.ProjetoMvc.Domain\obj\Debug\VRbit.Agendamentos.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.ProjetoMvc.Domain\obj\Debug\VRbit.ProjetoMvc.Domain.dll
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.ProjetoMvc.Domain\obj\Debug\VRbit.ProjetoMvc.Domain.pdb
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.Agendamentos.Domain\bin\Debug\VRbit.Agendamentos.Domain.dll
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.Agendamentos.Domain\bin\Debug\VRbit.Agendamentos.Domain.pdb
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.Agendamentos.Domain\obj\Debug\VRbit.Agendamentos.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.Agendamentos.Domain\obj\Debug\VRbit.Agendamentos.Domain.dll
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.Agendamentos.Domain\obj\Debug\VRbit.Agendamentos.Domain.pdb
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.Agendamentos.Domain\bin\Debug\VRbit.Agendamentos.Domain.dll.config
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.Agendamentos.Domain\bin\Debug\EntityFramework.dll
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.Agendamentos.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.Agendamentos.Domain\bin\Debug\EntityFramework.xml
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.Agendamentos.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.Agendamentos.Domain\obj\Debug\VRbit.Agendamentos.Domain.csprojAssemblyReference.cache
+C:\Projetos\VRbit.Agendamentos.Project\src\VRbit.Agendamentos.Domain\obj\Debug\VRbit.Agendamentos.Domain.csproj.CopyComplete

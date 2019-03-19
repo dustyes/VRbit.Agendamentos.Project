@@ -1,0 +1,6 @@
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Domain\bin\Debug\VRbit.ProjetoMvc.Domain.dll
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Domain\bin\Debug\VRbit.ProjetoMvc.Domain.pdb
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Domain\obj\Debug\VRbit.ProjetoMvc.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Domain\obj\Debug\VRbit.ProjetoMvc.Domain.dll
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Domain\obj\Debug\VRbit.ProjetoMvc.Domain.pdb
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Domain\obj\Debug\VRbit.ProjetoMvc.Domain.csprojAssemblyReference.cache

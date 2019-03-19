@@ -1,0 +1,16 @@
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\bin\Debug\VRbit.ProjetoMvc.Infra.Data.dll.config
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\bin\Debug\VRbit.ProjetoMvc.Infra.Data.dll
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\bin\Debug\VRbit.ProjetoMvc.Infra.Data.pdb
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\bin\Debug\Dapper.dll
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\bin\Debug\VRbit.ProjetoMvc.Domain.dll
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\bin\Debug\VRbit.ProjetoMvc.Domain.pdb
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\bin\Debug\Dapper.xml
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\obj\Debug\VRbit.ProjetoMvc.Infra.Data.csprojAssemblyReference.cache
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\obj\Debug\VRbit.ProjetoMvc.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\obj\Debug\VRbit.ProjetoMvc.Infra.Data.csproj.CopyComplete
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\obj\Debug\VRbit.ProjetoMvc.Infra.Data.dll
+C:\Projetos\ProjetoMvcEP\src\VRbit.ProjetoMvc.Infra.Data\obj\Debug\VRbit.ProjetoMvc.Infra.Data.pdb
